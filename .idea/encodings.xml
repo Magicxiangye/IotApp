@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/io/MjpegInputStream.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/pic/PicAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/pic/PicEntity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tools/Generic.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/view/MjpegView.java" charset="GBK" />
+  </component>
+</project>

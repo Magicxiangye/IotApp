@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/Image_Button_one"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/weather_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="*其他功能 天气查看*"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/Image_Button_two"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cam_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="监控器实时查看"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/Image_Button_three"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/user_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="其他功能* 2"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

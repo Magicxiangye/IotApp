@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- app:elevation="8dp"  elevation属性来给FloatingActionBar指定一个高度值，值越大，投影范围越大，投影效果越淡-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab"
+            android:layout_margin="4dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/user_refresh"
+            app:elevation="8dp"/>
+        <ListView
+            android:id="@+id/listview"
+            android:divider="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+

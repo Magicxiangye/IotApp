@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flash_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hintTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_hint" />
+
+    <!-- ip -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="7.0dip"
+        android:background="@drawable/cell_bottom_item"
+        android:gravity="center_vertical"
+        android:paddingRight="10.0dip" >
+
+        <TextView
+            android:id="@+id/ipStr"
+            style="@style/black_17_txt"
+            android:layout_width="90.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/ip"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ip"
+            style="@style/black_17_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/ip_hint"
+            android:singleLine="true"
+            android:background="@drawable/textfield_selector"
+            android:layout_toRightOf="@+id/ipStr"
+            android:paddingRight="30dip" />
+
+        <ImageView
+            android:id="@+id/history_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/comboxbtn"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="3dip" />
+    </RelativeLayout>
+
+
+    <!-- port -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/cell_bottom_item"
+        android:paddingRight="10.0dip" >
+
+        <TextView
+            style="@style/black_17_txt"
+            android:layout_width="90.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/port"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/port"
+            style="@style/black_17_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/port_hint"
+            android:background="@drawable/textfield_selector"
+            android:maxLines="1"
+            android:paddingRight="10.0dip"
+            android:text="8000" />
+    </LinearLayout>
+
+    <!-- 登录按钮 -->
+
+    <Button
+        android:id="@+id/server_logIn_Button"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/server_login_btn_selector"
+        android:text="@string/connect"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+</LinearLayout>

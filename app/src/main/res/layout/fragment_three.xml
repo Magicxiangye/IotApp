@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E8E8E8"
+    android:id="@+id/Relative_1">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/user_background"
+        android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/icon_image"
+        android:src="@drawable/app_icon"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Worknum"
+        android:layout_alignParentBottom="true"
+        android:text="765211318"
+        android:textColor="#0F0F0F"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_above="@+id/Worknum"
+        android:text="Dad Ye"
+        android:textSize="14sp"
+        android:textColor="#0F0F0F"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="OPTION"
+            android:gravity="center_vertical"
+            android:background="#FFFFFF"
+            android:id="@+id/Button_menu_option"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:text="Settings"
+            android:gravity="center_vertical"
+            android:id="@+id/Button_menu_settings"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:text="USER"
+            android:gravity="center_vertical"
+            android:id="@+id/Button_menu_user"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="150dp"
+            android:background="#FFFFFF"
+            android:text="another"
+            android:gravity="center_vertical"
+            android:id="@+id/Button_menu_another"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
